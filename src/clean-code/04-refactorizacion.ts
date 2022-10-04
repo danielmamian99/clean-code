@@ -4,7 +4,6 @@
     // Resolver sin la triple condicional dentro del if
     // includes? arrays?
     function isRedFruit( fruit: string ): boolean {
-        
         if ( fruit === 'manzana' || fruit === 'cereza' || fruit === 'ciruela' ) {
             return true;
         } else {
