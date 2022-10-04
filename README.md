@@ -1,4 +1,4 @@
-# Proyecto para practicar
+# Guía practica 
 
 Este es un proyecto de Vanilla TypeScript en Vite, con algunos ejemplos basicos sobre Principios SOLID y CleanCode.
 
