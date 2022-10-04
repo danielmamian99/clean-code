@@ -1,3 +1,4 @@
+//!EJEMPLOS
 (() => {
 
     // Ejemplo

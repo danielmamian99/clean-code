@@ -1,4 +1,5 @@
 type Size = ''| 'S'|'M'|'XL';
+//!COMO NO SE DEBE HACER
 (()=>{
     class Product {
         constructor(
@@ -25,7 +26,7 @@ type Size = ''| 'S'|'M'|'XL';
         console.log(bluePants.toString())
     })();
 })();
-
+//!COMO SE DEBE HACER
 (()=>{
 
     class Product {
