@@ -91,10 +91,10 @@
 
     const userSettings = new UserSettings({
         birthdate: new Date('1985-10-21'),
-        email: 'fernando@google.com',
+        email: 'danimaster99@gmail.com',
         gender: 'M',
         lastOpenFolder: '/home',
-        name: 'Fernando',
+        name: 'Daniel',
         role: 'Admin',
         workingDirectory: '/usr/home',
     });
@@ -208,10 +208,10 @@
 
     const userSettings = new UserSettings({
         birthdate: new Date('1985-10-21'),
-        email: 'fernando@google.com',
+        email: 'danimaster99@gmail.com',
         gender: 'M',
         lastOpenFolder: '/home',
-        name: 'Fernando',
+        name: 'Daniel',
         role: 'Admin',
         workingDirectory: '/usr/home',
     });
@@ -267,7 +267,7 @@
         }
     }
 
-    const nameField = new InputElement('Fernando', 'Enter first name', 'txtName');
+    const nameField = new InputElement('Daniel', 'Enter first name', 'txtName');
 
     console.log({ nameField });
 
