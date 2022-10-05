@@ -1,5 +1,6 @@
 //! Se dice que debemos priorizar la composición sobre la herencia
 //! Ya que la herencia rompe el principio de responsabilidad unica 
+//! además en este ejemplo se esta generando un alto acoplamiento ya que hay mucha interdependencia entre las clases
 (() => {
     // priorizando la herencia
     // No aplicando el principio de responsabilidad única
@@ -67,7 +68,7 @@
         role             : string;
         workingDirectory : string;
     }
-
+    // alto acoplamiento
     class UserSettings extends User {
 
         public workingDirectory: string;
@@ -108,6 +109,7 @@
 
     // Aplicando el principio de responsabilidad única
     // Priorizar la composición frente a la herencia!
+    // Bajo acoplamiento de las clases
 
     type Gender = 'M'|'F';
 
